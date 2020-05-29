@@ -1,0 +1,28 @@
+{
+  "name": "BrewCrafter - Push to Z",
+  "description": "Allows BrewCrafter to be the source of Z Brew Maker Recipe Creation",
+  "version": "0.1.0",
+  "manifest_version": 2,
+  "content_scripts": [
+    {
+      "matches": [
+        "https://www.brewcrafter.com/recipe/print/*", 
+        "https://www.brewcrafter.com/recipe/edit/*",
+        "https://www.brewcrafter.com/recipe/recipes"
+      ],
+      "run_at": "document_idle",
+      "js": ["lib/jquery-3.4.0.min.js", "javascript/background.js"]
+    }
+  ],
+  "permissions": [
+    "activeTab",
+    "https://www.brewcrafter.com/recipe/print/*",
+    "https://www.brewcrafter.com/recipe/edit/*",
+    "https://www.brewcrafter.com/recipe/recipes"
+  ],
+  "icons": { 
+    "350": "images/picobrew-350px.png", 
+    "128": "images/picobrew-128px.png",
+    "64": "images/picobrew-64px.png" 
+  }
+}
