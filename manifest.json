@@ -15,7 +15,6 @@
     }
   ],
   "permissions": [
-    "activeTab",
     "https://www.brewcrafter.com/recipe/print/*",
     "https://www.brewcrafter.com/recipe/edit/*",
     "https://www.brewcrafter.com/recipe/recipes"

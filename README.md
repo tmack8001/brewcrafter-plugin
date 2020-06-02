@@ -12,5 +12,5 @@ Below are examples of the usage of this Chrome Extension.
 
 # References
 
-[Chrome Web Store Listing](https://chrome.google.com/webstore/detail/ggonfjkfjkakplblapnhiapdgemidpbp/publish-accepted?authuser=2&hl=en)
+[Chrome Web Store Listing](https://chrome.google.com/webstore/detail/brewcrafter-push-to-z/ggonfjkfjkakplblapnhiapdgemidpbp)
 [Chrome Web Store Developer Dashboard](https://chrome.google.com/u/2/webstore/devconsole/69f16540-8fdc-4883-8455-c8b78d385850/ggonfjkfjkakplblapnhiapdgemidpbp/edit)
